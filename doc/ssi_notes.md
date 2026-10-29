@@ -1,4 +1,4 @@
-# SSI #
+# SSI SINE WAVE LOOPBACK #
 # Introduction #
 This example project demonstrates audio streaming using the SSI module with a double-buffer mechanism. A sine wave is generated and continuously streamed via a loopback connection between the SSITX and SSIRX pins. The sine wave data is stored in two buffers, alternating between them to ensure continuous and uninterrupted streaming. The transmitted and received audio data are compared to verify the successful completion of the SSI transfer. The results will be displayed on the terminal. The sample data can be observed using waveform rendering in the memory viewer of e2studio.
 
